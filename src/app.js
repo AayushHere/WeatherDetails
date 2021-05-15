@@ -34,7 +34,7 @@ app.get("/weather",(req,res)=>{
 
 app.get("*",(req,res)=>{      // * is used when routinng path is not available, if you eneterd wrong
     res.render("404error",{
-    errorMsg: 'Oops! Page not found'
+    errorMsg: 'Oops! Page not found 😮'
     })
 })
 
